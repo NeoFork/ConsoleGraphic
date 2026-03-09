@@ -6,7 +6,7 @@
 typedef struct __attribute__((packed)){
     int16_t renderingLevel;
     int16_t* pixels;
-    unsigned _BitInt(72) coordinates;
+    unsigned _BitInt(72) verticesOfTheTriangle;
 } triangle;
 
 
